@@ -1,0 +1,210 @@
+/* reset.css */
+
+html, body {
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: 'Nanum Pen Script', 'sans-serif', cursive;
+}
+
+
+/* Header */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.Header__title {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.Header__sub {
+    display: flex;
+    align-items: center;
+}
+
+.Header__sub__icons {
+    display: flex;
+    margin-right: 10px;
+}
+
+.Header__sub__icon {
+    margin: 10px;
+}
+
+.Header__sub__profile {
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+}
+
+.Header__sub__profile__username {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+
+ul {
+    list-style: none;
+}
+
+input {
+    width: 25rem;
+    height: 2.5rem;
+}
+
+
+/* Section */
+.Section__search {
+    text-align: center;
+}
+
+.Section__table {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer */
+footer {
+    flex-shrink: 0;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+
+}
+
+.Footer__sns {
+    display: flex;
+}
+
+.Footer__sns li {
+    margin: 0 5px;
+}
+
+.Footer__menu {
+    display: flex;
+}
+
+.Footer__menu li {
+    margin: 0 5px;
+}
+
+.Footer_project {
+    display: flex;
+}
+
+.Footer_team {
+    display: flex;
+}
+
+.Footer_team li {
+    margin: 0 5px;
+}
+
+
+/* Dynamic color */
+.colorful-font,
+.Header__sub__profile__image i {
+  margin: 0;
+  color: #313131;
+  font-weight: bold;
+  -webkit-animation: colorchange 10s infinite alternate;
+  animation: colorchange 10s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue;
+  }
+
+  10% {
+    color: #8e44ad;
+  }
+
+  20% {
+    color: #1abc9c;
+  }
+
+  30% {
+    color: #d35400;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  50% {
+    color: #34495e;
+  }
+
+  60% {
+    color: blue;
+  }
+
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+
+  90% {
+    color: #2980b9;
+  }
+
+  100% {
+    color: pink;
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    color: blue;
+  }
+
+  10% {
+    color: #8e44ad;
+  }
+
+  20% {
+    color: #1abc9c;
+  }
+
+  30% {
+    color: #d35400;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  50% {
+    color: #34495e;
+  }
+
+  60% {
+    color: blue;
+  }
+
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+
+  90% {
+    color: #2980b9;
+  }
+
+  100% {
+    color: pink;
+  }
+}
